@@ -1,0 +1,28 @@
+#btn-2{
+    display: block;
+    margin: 32px auto;
+    cursor:pointer;
+    padding: 16px 32px;
+
+    background-color: pink;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 4px 4px black;
+
+    align-items: center;
+}
+.gambar {
+    display: none;
+    margin: 20px auto;
+    max-width: 200px;
+    opacity: 0;
+    transform: scale(0);
+    transition: transform 0.5s ease opacity 0.5s ease;
+}
+
+.muncul{
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}
